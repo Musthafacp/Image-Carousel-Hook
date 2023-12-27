@@ -1,1 +1,41 @@
 /* write down the css for Carousel in this file */
+body{
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding: 4%;
+    background-color: rgba(0, 0, 0);
+    height: 600px;
+}
+
+
+.images_texts{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.images_texts img{
+    margin-top: 50%;
+}
+
+.arrow{
+    color: rgb(255, 255, 255);
+}
+
+.texts{
+    position: relative;
+    bottom: 150%;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.385);    
+}
+
+.texts h1{
+    font-size: 70px;
+}
+
+.texts h3{
+    font-size: 28px;
+}
